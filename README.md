@@ -53,3 +53,9 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+
+### How I optimized this website :
+
+* In index.html : I optimaized,resized and compressed the images, split styles by media, async analytics js file.
+* In main.js : I refactored the code removing unnecessary and repeated code espacilay what written in the loops. Also, I used getElementById/Class which is faster relative to the query selector methods that would cause bad performance.
