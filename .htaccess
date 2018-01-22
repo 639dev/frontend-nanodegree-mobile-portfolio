@@ -1,0 +1,6 @@
+# Enable the mod_expires module
+ExpiresActive On
+# Set expiration date to 1 month for all style sheets and images
+ExpiresByType css/. "access plus 1 month"
+ExpiresByType js/. "access plus 1 month"
+# Set expiration date to 1 week for all HTML pages
